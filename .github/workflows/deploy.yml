@@ -31,8 +31,7 @@ jobs:
           #branch: main
           name: mgf-pyodide
           # Optional, directory where to extract artifact(s), defaults to current directory
-          path: pyodide
-      - run: mv pyodide/mgf-pyodide pyodide/pyodide
+          path: pyodide/pyodide
       - name: Build the JupyterLite site
         run: |
           cp README.md content
