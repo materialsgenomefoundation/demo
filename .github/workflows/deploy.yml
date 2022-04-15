@@ -25,7 +25,7 @@ jobs:
         uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
-          #workflow: main.yaml
+          workflow: main.yaml
           #workflow_conclusion: success
           repo: materialsgenomefoundation/mgf-dist-pyodide
           #branch: main
