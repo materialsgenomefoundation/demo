@@ -29,10 +29,9 @@ jobs:
           workflow_conclusion: success
           repo: materialsgenomefoundation/mgf-dist-pyodide
           branch: main
-          event: push
           name: mgf-pyodide
           # Optional, directory where to extract artifact(s), defaults to current directory
-          path: pyodide
+          path: pyodide/pyodide
       - name: Build the JupyterLite site
         run: |
           cp README.md content
