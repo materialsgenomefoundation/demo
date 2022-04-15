@@ -25,11 +25,11 @@ jobs:
         uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
-          workflow: main.yaml
-          workflow_conclusion: success
+          #workflow: main.yaml
+          #workflow_conclusion: success
           repo: materialsgenomefoundation/mgf-dist-pyodide
-          branch: main
-          name: mgf-pyodide
+          #branch: main
+          #name: mgf-pyodide
           # Optional, directory where to extract artifact(s), defaults to current directory
           path: pyodide/pyodide
       - name: Build the JupyterLite site
