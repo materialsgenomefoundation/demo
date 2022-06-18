@@ -2,8 +2,9 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.5",
+    "appVersion": "0.1.0-beta.8",
     "baseUrl": "./",
+    "collaborative": true,
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
@@ -29,14 +30,15 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.bf6b3192a558615425cd.js",
-        "name": "@telamonian/theme-darcula"
+        "load": "static/remoteEntry.8dcc730aedc487734a23.js",
+        "name": "@jupyterlite/webrtc-docprovider",
+        "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.145e469029155b53b350.js",
-        "name": "@timkpaine/jupyterlab_miami_nights"
+        "load": "static/remoteEntry.bf6b3192a558615425cd.js",
+        "name": "@telamonian/theme-darcula"
       },
       {
         "extension": "./extension",
@@ -72,16 +74,16 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.e2bf80f6515beeab9026.js",
-        "mimeExtension": "./mimeExtension",
-        "name": "jupyterlab-plotly"
+        "load": "static/remoteEntry.389b243688c5e1fbf672.js",
+        "name": "jupyterlab-filesystem-access",
+        "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.5a1869d4304cb9223cfc.js",
-        "name": "jupyterlab-tour",
-        "style": "./style"
+        "load": "static/remoteEntry.e2bf80f6515beeab9026.js",
+        "mimeExtension": "./mimeExtension",
+        "name": "jupyterlab-plotly"
       },
       {
         "extension": "./extension",
