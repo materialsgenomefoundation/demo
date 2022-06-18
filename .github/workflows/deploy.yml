@@ -21,15 +21,20 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
-      - name: Download custom Pyodide
+      - name: Download release Pyodide
+        run: |
+          mkdir -p pyodide/pyodide
+          wget https://github.com/pyodide/pyodide/releases/download/0.20.1a1/pyodide-build-0.20.1a1.tar.bz2
+          tar xvf pyodide-build-0.20.1a1.tar.bz2 -C pyodide/pyodide
+      - name: Apply Pyodide patch
         uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           workflow: main.yaml
           #workflow_conclusion: success
-          repo: materialsgenomefoundation/mgf-dist-pyodide
+          repo: richardotis/pyodide-prebuilt
           #branch: main
-          name: mgf-pyodide
+          name: pyodide-dist-patch
           # Optional, directory where to extract artifact(s), defaults to current directory
           path: pyodide/pyodide
       - name: Build the JupyterLite site
