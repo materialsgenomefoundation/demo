@@ -8,8 +8,8 @@
               "name": "tdb",
               "extensions": [".tdb", ".TDB"],
               "mimetypes": ["text/plain"],
-              "fileFormat": "text",
-            },
-        },
-    },
+              "fileFormat": "text"
+            }
+        }
+    }
 }
