@@ -303,6 +303,17 @@
         ],
         "name": "svg"
       },
+      "tdb": {
+        "extensions": [
+          ".tdb",
+          ".TDB"
+        ],
+        "fileFormat": "text",
+        "mimetypes": [
+          "text/plain"
+        ],
+        "name": "tdb"
+      },
       "toml": {
         "extensions": [
           ".toml"
