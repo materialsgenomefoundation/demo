@@ -26,7 +26,7 @@ jobs:
           mkdir -p pyodide/pyodide
           wget https://github.com/pyodide/pyodide/releases/download/0.20.1a1/pyodide-build-0.20.1a1.tar.bz2
           tar xvf pyodide-build-0.20.1a1.tar.bz2 -C pyodide
-          rm -rf pyodide/node_modules # Why is this here?
+          rm -rf pyodide/pyodide/node_modules # Why is this here?
       - name: Apply Pyodide patch
         uses: dawidd6/action-download-artifact@v2
         with:
