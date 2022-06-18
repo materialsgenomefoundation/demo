@@ -1,0 +1,15 @@
+{
+  'LiteBuildConfig':
+    {
+      'extra_file_types':
+        {
+          'tdb':
+            {
+              'name': 'tdb',
+              'extensions': ['.tdb', '.TDB'],
+              'mimetypes': ['text/plain'],
+              'fileFormat': 'text',
+            },
+        },
+    },
+}
