@@ -11,6 +11,6 @@ jupyterlab-fasta>=3,<4
 jupyterlab-geojson>=3,<4
 jupyterlab-webrtc-docprovider
 jupyterlab-filesystem-access
-jupyterlite==0.1.0b9
+jupyterlite==0.1.0b10
 plotly>=5,<6
 theme-darcula
