@@ -2,32 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2022-06-18T21:55:08.003046Z",
+      "created": "2022-06-24T14:36:38.556553Z",
       "format": null,
-      "last_modified": "2022-06-18T21:55:08.003046Z",
-      "mimetype": null,
-      "name": "pycalphad",
-      "path": "pycalphad",
-      "size": null,
-      "type": "directory",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-06-18T21:55:07.991045Z",
-      "format": null,
-      "last_modified": "2022-06-18T21:55:04.338968Z",
+      "last_modified": "2022-06-24T14:36:35.856560Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
       "size": 5791,
       "type": "file",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-06-24T14:36:38.568553Z",
+      "format": null,
+      "last_modified": "2022-06-24T14:36:38.568553Z",
+      "mimetype": null,
+      "name": "pycalphad",
+      "path": "pycalphad",
+      "size": null,
+      "type": "directory",
+      "writable": true
     }
   ],
-  "created": "2022-06-18T21:55:07.991045Z",
+  "created": "2022-06-24T14:36:38.556553Z",
   "format": "json",
-  "last_modified": "2022-06-18T21:55:07.991045Z",
+  "last_modified": "2022-06-24T14:36:38.556553Z",
   "mimetype": null,
   "name": "",
   "path": "",
